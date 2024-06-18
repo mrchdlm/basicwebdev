@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+    <style>
+        /* Element Selector*/
+        body{
+            background-color: crimson;
+        }
+        p {
+            color: rgb(231, 2, 155) ;
+        }
+        h2 {
+            color:  rgb(231, 2, 155);
+        }
+
+        /* . is for class */
+        .primary-heading {
+            color: rgb(231, 2, 155);
+        }
+
+        /* # is for IDs */
+        #welcome {
+            background-color: rgb(0, 0, 0);
+        }
+
+        /* Multiple Selectors */
+        #welcome, #about {
+            border: 1px solid #5b7cd8;
+            padding: 10px;
+            background-color: rgb(0, 0, 0);
+        }
+
+        /* Nested Selector */
+        #welcome p{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="welcome">
+        <h2 class="primary-heading">Welcome</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam eveniet facilis doloribus. Aspernatur, at! Similique tempore sequi labore laborum adipisci fugiat. Culpa quibusdam deleniti eveniet, cumque adipisci, voluptates quos sapiente beatae vitae dignissimos ex quis nisi ad ducimus laudantium tenetur illum architecto? Omnis, atque eum explicabo dolore ex ut libero?
+        </p>
+    </div>
+    <div id="about">
+        <h2>About</h2>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut saepe necessitatibus ab laboriosam minima. Commodi, reprehenderit sint non possimus alias corrupti nemo inventore, maiores ipsam adipisci odio suscipit illum quibusdam ratione. Minus mollitia, libero tenetur explicabo consectetur repellendus iste est, laborum sit sed hic repellat. Vitae corporis maxime aliquid a reprehenderit. Ullam ea non totam sed nulla dolor, modi commodi!</p>
+    </div>
+</body>
+</html>
